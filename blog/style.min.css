@@ -24,7 +24,7 @@ main {
   max-width: 60ch;
   display: flex;
   flex-direction: column;
-  row-gap: 4.5rem;
+  row-gap: 1.5rem;
   margin: auto;
   padding: 3rem 1.5rem;
 }

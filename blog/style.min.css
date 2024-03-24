@@ -96,3 +96,9 @@ ul.skills li {
   padding: 2rem;
   border-radius: 5px;
 }
+
+img {
+  width: 200;
+  height: 300px;
+  object-fit: contain
+}

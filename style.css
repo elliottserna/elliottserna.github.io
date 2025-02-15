@@ -84,6 +84,13 @@ ul.skills li {
   border-radius: 5px;
 }
 
+.honors {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  margin-top: 1.7rem
+}
+
 .projects {
   display: flex;
   flex-direction: column;

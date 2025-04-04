@@ -152,7 +152,7 @@ img {
   }
 
   .photo img {
-    max-width: 200px; /* Adjust as needed */
+    max-width: 400px; /* Adjust as needed */
     margin-top: 10px; /* Adds spacing between text and image */
   }
 }

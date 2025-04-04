@@ -121,18 +121,23 @@ img {
   max-width: 900px;
   margin: 0 auto;
   gap: 20px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 .text {
   flex: 1;
+  min-width: 250px; /* Ensures it doesn't get too small */
 }
 
 .photo {
-  flex-shrink: 0; /* Prevents the image from shrinking */
+  flex-shrink: 0;
+  max-width: 40%; /* Keeps the image at a reasonable size */
 }
 
 .photo img {
-  width: 200px; /* Adjust size as needed */
+  width: 100%;
+  max-width: 200px; /* Keeps image from becoming too large */
   height: auto;
-  border-radius: 10px; /* Optional */
+  border-radius: 10px;
 }
+

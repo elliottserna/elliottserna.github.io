@@ -144,7 +144,7 @@ img {
 @media (max-width: 600px) {
   .about-content {
     flex-direction: column; /* Stacks text and image */
-    text-align: center; /* Centers text for better readability */
+    text-align: left; /* Centers text for better readability */
   }
 
   .photo {
@@ -152,7 +152,7 @@ img {
   }
 
   .photo img {
-    max-width: 150px; /* Adjust as needed */
+    max-width: 200px; /* Adjust as needed */
     margin-top: 10px; /* Adds spacing between text and image */
   }
 }

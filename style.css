@@ -111,3 +111,22 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.text {
+  flex: 1;
+}
+
+.photo img {
+  width: 200px; /* Adjust as needed */
+  height: auto;
+  border-radius: 10px; /* Optional: rounded corners */
+}

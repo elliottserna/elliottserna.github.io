@@ -125,8 +125,12 @@ img {
   flex: 1;
 }
 
+.photo {
+  flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
 .photo img {
-  width: 200px; /* Adjust as needed */
+  width: 200px; /* Adjust size as needed */
   height: auto;
-  border-radius: 10px; /* Optional: rounded corners */
+  border-radius: 10px; /* Optional */
 }

@@ -71,7 +71,9 @@ ul.links {
 
 ul.social {
   margin-top: 1.5rem;
+  gap: 1rem; /* Add spacing between social links */
 }
+
 
 ul.skills {
   gap: 0.8rem;

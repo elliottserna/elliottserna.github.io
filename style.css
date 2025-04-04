@@ -141,3 +141,18 @@ img {
   border-radius: 10px;
 }
 
+@media (max-width: 600px) {
+  .about-content {
+    flex-direction: column; /* Stacks text and image */
+    text-align: center; /* Centers text for better readability */
+  }
+
+  .photo {
+    max-width: 100%; /* Ensures the image takes up a reasonable space */
+  }
+
+  .photo img {
+    max-width: 150px; /* Adjust as needed */
+    margin-top: 10px; /* Adds spacing between text and image */
+  }
+}
